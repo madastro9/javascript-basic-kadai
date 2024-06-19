@@ -2,13 +2,10 @@ const holidays = ["正月", "成人の日", "建国記念日", "天皇誕生日"
 
 let i = 0;  //インデックスの初期値を設定
 
-console.log(holidays);
-for (let i = 0; i <= 15; i++) {
+for (let i = 0; i < holidays.length; i++) {
   console.log(holidays[i]);
-  // 1～14までの数値を順番に出力する
+ // 1～14までの数値を順番に出力する
 }
-
-i = 0;//iの値を0に戻す
 
 while (i < holidays.length) {
   //holidays配列の長さ（.length）より小さい間、whileループが実行
